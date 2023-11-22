@@ -1,6 +1,7 @@
-1. write makefile that builds specific .s assembly file
-2. write script that includes all toolchain download and stuff
+1. write makefile that builds specific .s assembly files
+2. write script that includes all downloads
 	a. riscv64-linux-gnu
 	b. qemu-user
-3. create git-repo with all code
+	c. qemu-user-static
+3. push code to git-repo 
 4. recreate setup and code testing in docker container/full qemu system emulation
