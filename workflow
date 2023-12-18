@@ -1,10 +1,12 @@
-1. write makefile that builds specific .s assembly files
-2. write script that includes all downloads
-	a. riscv64-linux-gnu
-	b. qemu-user
-	c. qemu-user-static
-3. push code to git-repo 
-4. recreate setup and code testing in docker container/full qemu system emulation
+(DONE) Write 'Hello world' in RISC-V first. 
+
+(DONE) write makefile that builds .s assembly files into executables
+(NOT NEEDED) write script that includes all downloads
+			a. riscv64-linux-gnu
+			b. qemu-user
+			c. qemu-user-static
+() push code to git-repo 
+(DONE) Run code in native RV64 machine on QEMU
 
 
 Create Emulator

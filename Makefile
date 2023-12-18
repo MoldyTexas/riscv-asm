@@ -1,5 +1,13 @@
-default:
-	rm test.s
-	riscv64-linux-gnu-as test.s -o test.o
-	riscv64-linux-gnu-gcc test.o -o test.c 
-	
+#Enter file NAME with "make" to compile
+
+all: program
+
+
+program: 
+	as  -o $(file).o $(file).s
+	ld  -o $(file) $(file).o
+
+clean:
+	rm -f $(file).o
+
+.PHONY: clean
